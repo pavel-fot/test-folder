@@ -60,6 +60,7 @@ const onDidMount = ({ loadDoc, convertDoc, saveQueryParamsToStore }) => {
     convertDoc(params);
   } else {
     loadDoc();
+                
   }
 };
 const onUnmount = ({ resetFreeform, resetRedirectUriForm }) => {
