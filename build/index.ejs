@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sign Now</title> <meta name="description" content="Sign Now Static">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+      (function () {
+        if (!Object.assign || !Array.prototype.includes)
+          document.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js"><\/script>');
+      })();
+    </script>
+    <script>
+      function detectDocumentId() {
+        const match = window.location.pathname.match(/\/document\/(.*?)\/?$/);
+        return match ? match[1] : '';
+      }
+
+      window.__documentId = detectDocumentId();
+      window.__bundles = {
+        snFrontLocales: {
+          js: '/snFrontLocales.js',
+          meta: 'master/112'
+        },
+        FolderApp: {
+          js: '/FolderApp.js',
+          css: ['/FolderApp.css', '/RedesignFolderApp.css', '/rc-trigger-stylesFolderApp.css'],
+          meta: 'master/14'
+        },
+      }
+    </script>
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+
+  <body>
+    <div id="snfiller">
+    </div>
+    <div id="app" class="sn-app"></div>
+  </body>
+
+</html>
