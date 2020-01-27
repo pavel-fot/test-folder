@@ -27,3 +27,18 @@ jdf
 h
 deleteDocumentFromGroupjfhjdngh
 dsfhgf
+
+
+
+export const ENV_PROD = 'prod';
+export const ENV_RC = 'app-rc';
+
+,smngjkdngdfnghlkdnlhnfghnfgh lskfndglkdfmds
+ghfg
+dh
+fdghj
+fgh
+jdf
+h
+deleteDocumentFromGroupjfhjdngh
+dsfhgf
